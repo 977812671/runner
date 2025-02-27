@@ -1,0 +1,15 @@
+/root/runner-2.322.0/out/Sdk.deps.json
+/root/runner-2.322.0/out/Sdk.dll
+/root/runner-2.322.0/out/Sdk.pdb
+/root/runner-2.322.0/src/Sdk/obj/Release/net8.0/Sdk.csproj.AssemblyReference.cache
+/root/runner-2.322.0/src/Sdk/obj/Release/net8.0/Sdk.GeneratedMSBuildEditorConfig.editorconfig
+/root/runner-2.322.0/src/Sdk/obj/Release/net8.0/Sdk.AssemblyInfoInputs.cache
+/root/runner-2.322.0/src/Sdk/obj/Release/net8.0/Sdk.AssemblyInfo.cs
+/root/runner-2.322.0/src/Sdk/obj/Release/net8.0/Sdk.csproj.CoreCompileInputs.cache
+/root/runner-2.322.0/src/Sdk/obj/Release/net8.0/Sdk.dll
+/root/runner-2.322.0/src/Sdk/obj/Release/net8.0/refint/Sdk.dll
+/root/runner-2.322.0/src/Sdk/obj/Release/net8.0/Sdk.pdb
+/root/runner-2.322.0/src/Sdk/obj/Release/net8.0/ref/Sdk.dll
+/root/runner-2.322.0/bin/Sdk.deps.json
+/root/runner-2.322.0/bin/Sdk.dll
+/root/runner-2.322.0/bin/Sdk.pdb
