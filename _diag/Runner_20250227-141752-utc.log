@@ -1,0 +1,107 @@
+[2025-02-27 14:17:52Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-02-27 14:17:52Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:17:52Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:17:52Z INFO HostContext] Well known config file 'Credentials': '/root/runner/.credentials'
+[2025-02-27 14:17:52Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:17:52Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:17:52Z INFO HostContext] Well known config file 'Runner': '/root/runner/.runner'
+[2025-02-27 14:17:52Z INFO Listener] Runner is built for Linux (X64) - gancc.
+[2025-02-27 14:17:52Z INFO Listener] RuntimeInformation: Ubuntu 22.04.1 LTS.
+[2025-02-27 14:17:52Z INFO Listener] Version: 2.322.0
+[2025-02-27 14:17:52Z INFO Listener] Commit: N/A
+[2025-02-27 14:17:52Z INFO Listener] Culture: en-US
+[2025-02-27 14:17:52Z INFO Listener] UI Culture: en-US
+[2025-02-27 14:17:52Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:17:52Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:17:52Z INFO Listener] Validating directory permissions for: '/root/runner'
+[2025-02-27 14:17:52Z INFO CommandLineParser] Parse
+[2025-02-27 14:17:52Z INFO CommandLineParser] Parsing 5 args
+[2025-02-27 14:17:52Z INFO CommandLineParser] parsing argument
+[2025-02-27 14:17:52Z INFO CommandLineParser] HasArgs: False
+[2025-02-27 14:17:52Z INFO CommandLineParser] Adding Command: configure
+[2025-02-27 14:17:52Z INFO CommandLineParser] parsing argument
+[2025-02-27 14:17:52Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 14:17:52Z INFO CommandLineParser] arg: url
+[2025-02-27 14:17:52Z INFO CommandLineParser] parsing argument
+[2025-02-27 14:17:52Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 14:17:52Z INFO CommandLineParser] Adding option 'url': 'https://github.com/977812671/test'
+[2025-02-27 14:17:52Z INFO CommandLineParser] parsing argument
+[2025-02-27 14:17:52Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 14:17:52Z INFO CommandLineParser] arg: pat
+[2025-02-27 14:17:52Z INFO CommandLineParser] parsing argument
+[2025-02-27 14:17:52Z INFO CommandLineParser] HasArgs: True
+[2025-02-27 14:17:52Z INFO CommandLineParser] Adding option 'pat': '***'
+[2025-02-27 14:17:52Z INFO Listener] Arguments parsed
+[2025-02-27 14:17:52Z INFO Runner] ExecuteCommand
+[2025-02-27 14:17:52Z INFO ConfigurationStore] currentAssemblyLocation: /root/runner/bin/Runner.Listener.dll
+[2025-02-27 14:17:52Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:17:52Z INFO ConfigurationStore] binPath: /root/runner/bin
+[2025-02-27 14:17:52Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:17:52Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:17:52Z INFO ConfigurationStore] RootFolder: /root/runner
+[2025-02-27 14:17:52Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:17:52Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:17:52Z INFO HostContext] Well known config file 'Runner': '/root/runner/.runner'
+[2025-02-27 14:17:52Z INFO ConfigurationStore] ConfigFilePath: /root/runner/.runner
+[2025-02-27 14:17:52Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:17:52Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:17:52Z INFO HostContext] Well known config file 'Credentials': '/root/runner/.credentials'
+[2025-02-27 14:17:52Z INFO ConfigurationStore] CredFilePath: /root/runner/.credentials
+[2025-02-27 14:17:52Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:17:52Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:17:52Z INFO HostContext] Well known config file 'MigratedCredentials': '/root/runner/.credentials_migrated'
+[2025-02-27 14:17:52Z INFO ConfigurationStore] MigratedCredFilePath: /root/runner/.credentials_migrated
+[2025-02-27 14:17:52Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:17:52Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:17:52Z INFO HostContext] Well known config file 'Service': '/root/runner/.service'
+[2025-02-27 14:17:52Z INFO ConfigurationStore] ServiceConfigFilePath: /root/runner/.service
+[2025-02-27 14:17:52Z INFO CommandSettings] Flag 'help': 'False'
+[2025-02-27 14:17:52Z INFO CommandSettings] Flag 'version': 'False'
+[2025-02-27 14:17:52Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-02-27 14:17:52Z INFO CommandSettings] Flag 'check': 'False'
+[2025-02-27 14:17:52Z INFO CommandSettings] Command 'configure': 'True'
+[2025-02-27 14:17:52Z INFO Terminal] WRITE LINE: 
+[2025-02-27 14:17:52Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2025-02-27 14:17:52Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2025-02-27 14:17:52Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2025-02-27 14:17:52Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2025-02-27 14:17:52Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2025-02-27 14:17:52Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2025-02-27 14:17:52Z INFO Terminal] WRITE LINE: |                                                                              |
+[2025-02-27 14:17:52Z INFO Terminal] WRITE: |                       
+[2025-02-27 14:17:52Z INFO Terminal] WRITE: Self-hosted runner registration
+[2025-02-27 14:17:52Z INFO Terminal] WRITE LINE:                         |
+[2025-02-27 14:17:52Z INFO Terminal] WRITE LINE: |                                                                              |
+[2025-02-27 14:17:52Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2025-02-27 14:17:52Z INFO ConfigurationManager] ConfigureAsync
+[2025-02-27 14:17:52Z INFO CommandSettings] Flag 'generateServiceConfig': 'False'
+[2025-02-27 14:17:52Z INFO ConfigurationStore] IsConfigured()
+[2025-02-27 14:17:52Z INFO ConfigurationStore] IsConfigured: False
+[2025-02-27 14:17:52Z INFO ConfigurationManager] Is configured: False
+[2025-02-27 14:17:52Z INFO CommandSettings] Arg 'url': 'https://github.com/977812671/test'
+[2025-02-27 14:17:52Z INFO CommandSettings] Remove url from Arg dictionary.
+[2025-02-27 14:17:52Z INFO ConfigurationManager] Retriving runner registration token using GitHub PAT.
+[2025-02-27 14:17:54Z ERR  Terminal] WRITE ERROR: Http response code: Forbidden from 'POST https://api.github.com/repos/977812671/test/actions/runners/registration-token' (Request Id: C67E:2F4D5F:43B71EE:880F9B4:67C07411)
+[2025-02-27 14:17:54Z ERR  Terminal] WRITE ERROR: {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/actions/self-hosted-runners#create-a-registration-token-for-a-repository","status":"403"}
+[2025-02-27 14:17:54Z ERR  ConfigurationManager] Failed to get JIT runner token -- Attempt: 1
+[2025-02-27 14:17:54Z ERR  ConfigurationManager] System.Net.Http.HttpRequestException: Response status code does not indicate success: 403 (Forbidden).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.GetJITRunnerTokenAsync(String githubUrl, String githubToken, String tokenType) in /root/runner-2.322.0/src/Runner.Listener/Configuration/ConfigurationManager.cs:line 741
+[2025-02-27 14:17:54Z INFO ConfigurationManager] Retrying in 1 seconds
+[2025-02-27 14:17:55Z ERR  Terminal] WRITE ERROR: Http response code: Forbidden from 'POST https://api.github.com/repos/977812671/test/actions/runners/registration-token' (Request Id: 8A0A:210C44:3B768ED:777FE53:67C07413)
+[2025-02-27 14:17:55Z ERR  Terminal] WRITE ERROR: {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/actions/self-hosted-runners#create-a-registration-token-for-a-repository","status":"403"}
+[2025-02-27 14:17:55Z ERR  ConfigurationManager] Failed to get JIT runner token -- Attempt: 2
+[2025-02-27 14:17:55Z ERR  ConfigurationManager] System.Net.Http.HttpRequestException: Response status code does not indicate success: 403 (Forbidden).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.GetJITRunnerTokenAsync(String githubUrl, String githubToken, String tokenType) in /root/runner-2.322.0/src/Runner.Listener/Configuration/ConfigurationManager.cs:line 741
+[2025-02-27 14:17:55Z INFO ConfigurationManager] Retrying in 4 seconds
+[2025-02-27 14:18:00Z ERR  Terminal] WRITE ERROR: Http response code: Forbidden from 'POST https://api.github.com/repos/977812671/test/actions/runners/registration-token' (Request Id: 8A0C:2E9EDA:3C79673:799FAB2:67C07418)
+[2025-02-27 14:18:00Z ERR  Terminal] WRITE ERROR: {"message":"Must have admin rights to Repository.","documentation_url":"https://docs.github.com/rest/actions/self-hosted-runners#create-a-registration-token-for-a-repository","status":"403"}
+[2025-02-27 14:18:00Z ERR  Runner] System.Net.Http.HttpRequestException: Response status code does not indicate success: 403 (Forbidden).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.GetJITRunnerTokenAsync(String githubUrl, String githubToken, String tokenType) in /root/runner-2.322.0/src/Runner.Listener/Configuration/ConfigurationManager.cs:line 741
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.GetRunnerTokenAsync(CommandSettings command, String githubUrl, String tokenType) in /root/runner-2.322.0/src/Runner.Listener/Configuration/ConfigurationManager.cs:line 650
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in /root/runner-2.322.0/src/Runner.Listener/Configuration/ConfigurationManager.cs:line 136
+   at GitHub.Runner.Listener.Runner.ExecuteCommand(CommandSettings command) in /root/runner-2.322.0/src/Runner.Listener/Runner.cs:line 141
+[2025-02-27 14:18:00Z ERR  Terminal] WRITE ERROR: Response status code does not indicate success: 403 (Forbidden).
+[2025-02-27 14:18:00Z INFO Listener] Runner execution has finished with return code 1

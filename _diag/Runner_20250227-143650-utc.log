@@ -1,0 +1,113 @@
+[2025-02-27 14:36:50Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-02-27 14:36:50Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:36:50Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:36:50Z INFO HostContext] Well known config file 'Credentials': '/root/runner/.credentials'
+[2025-02-27 14:36:50Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:36:50Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:36:50Z INFO HostContext] Well known config file 'Runner': '/root/runner/.runner'
+[2025-02-27 14:36:51Z INFO Listener] Runner is built for Linux (X64) - gancc.
+[2025-02-27 14:36:51Z INFO Listener] RuntimeInformation: Ubuntu 22.04.1 LTS.
+[2025-02-27 14:36:51Z INFO Listener] Version: 2.322.0
+[2025-02-27 14:36:51Z INFO Listener] Commit: N/A
+[2025-02-27 14:36:51Z INFO Listener] Culture: en-US
+[2025-02-27 14:36:51Z INFO Listener] UI Culture: en-US
+[2025-02-27 14:36:51Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:36:51Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:36:51Z INFO Listener] Validating directory permissions for: '/root/runner'
+[2025-02-27 14:36:51Z INFO CommandLineParser] Parse
+[2025-02-27 14:36:51Z INFO CommandLineParser] Parsing 1 args
+[2025-02-27 14:36:51Z INFO CommandLineParser] parsing argument
+[2025-02-27 14:36:51Z INFO CommandLineParser] HasArgs: False
+[2025-02-27 14:36:51Z INFO CommandLineParser] Adding Command: run
+[2025-02-27 14:36:51Z INFO Listener] Arguments parsed
+[2025-02-27 14:36:51Z INFO Runner] ExecuteCommand
+[2025-02-27 14:36:51Z INFO ConfigurationStore] currentAssemblyLocation: /root/runner/bin/Runner.Listener.dll
+[2025-02-27 14:36:51Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:36:51Z INFO ConfigurationStore] binPath: /root/runner/bin
+[2025-02-27 14:36:51Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:36:51Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:36:51Z INFO ConfigurationStore] RootFolder: /root/runner
+[2025-02-27 14:36:51Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:36:51Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:36:51Z INFO HostContext] Well known config file 'Runner': '/root/runner/.runner'
+[2025-02-27 14:36:51Z INFO ConfigurationStore] ConfigFilePath: /root/runner/.runner
+[2025-02-27 14:36:51Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:36:51Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:36:51Z INFO HostContext] Well known config file 'Credentials': '/root/runner/.credentials'
+[2025-02-27 14:36:51Z INFO ConfigurationStore] CredFilePath: /root/runner/.credentials
+[2025-02-27 14:36:51Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:36:51Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:36:51Z INFO HostContext] Well known config file 'MigratedCredentials': '/root/runner/.credentials_migrated'
+[2025-02-27 14:36:51Z INFO ConfigurationStore] MigratedCredFilePath: /root/runner/.credentials_migrated
+[2025-02-27 14:36:51Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:36:51Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:36:51Z INFO HostContext] Well known config file 'Service': '/root/runner/.service'
+[2025-02-27 14:36:51Z INFO ConfigurationStore] ServiceConfigFilePath: /root/runner/.service
+[2025-02-27 14:36:51Z INFO CommandSettings] Flag 'help': 'False'
+[2025-02-27 14:36:51Z INFO CommandSettings] Flag 'version': 'False'
+[2025-02-27 14:36:51Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-02-27 14:36:51Z INFO CommandSettings] Flag 'check': 'False'
+[2025-02-27 14:36:51Z INFO CommandSettings] Command 'configure': 'False'
+[2025-02-27 14:36:51Z INFO CommandSettings] Command 'remove': 'False'
+[2025-02-27 14:36:51Z INFO CommandSettings] Command 'warmup': 'False'
+[2025-02-27 14:36:51Z INFO ConfigurationManager] LoadSettings
+[2025-02-27 14:36:51Z INFO ConfigurationStore] IsConfigured()
+[2025-02-27 14:36:51Z INFO ConfigurationStore] IsConfigured: True
+[2025-02-27 14:36:51Z INFO ConfigurationManager] Is configured: True
+[2025-02-27 14:36:51Z INFO ConfigurationStore] Read setting file: 591 chars
+[2025-02-27 14:36:51Z INFO ConfigurationManager] Settings Loaded
+[2025-02-27 14:36:51Z INFO ConfigurationStore] IsServiceConfigured()
+[2025-02-27 14:36:51Z INFO ConfigurationStore] IsServiceConfigured: False
+[2025-02-27 14:36:51Z INFO CommandSettings] Command 'run': 'True'
+[2025-02-27 14:36:51Z INFO ConfigurationStore] IsConfigured()
+[2025-02-27 14:36:51Z INFO ConfigurationStore] IsConfigured: True
+[2025-02-27 14:36:51Z INFO ConfigurationManager] Is configured: True
+[2025-02-27 14:36:51Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2025-02-27 14:36:51Z INFO Runner] Set runner startup type - Manual
+[2025-02-27 14:36:51Z INFO CommandSettings] Flag 'once': 'False'
+[2025-02-27 14:36:51Z INFO CommandSettings] Flag 'once': 'False'
+[2025-02-27 14:36:51Z INFO Runner] RunAsync
+[2025-02-27 14:36:51Z INFO ConfigurationManager] LoadSettings
+[2025-02-27 14:36:51Z INFO ConfigurationStore] IsConfigured()
+[2025-02-27 14:36:51Z INFO ConfigurationStore] IsConfigured: True
+[2025-02-27 14:36:51Z INFO ConfigurationManager] Is configured: True
+[2025-02-27 14:36:51Z INFO ConfigurationManager] Settings Loaded
+[2025-02-27 14:36:51Z INFO MessageListener] {
+  "AgentId": 3,
+  "AgentName": "GitHub Actio1ns 3",
+  "SkipSessionRecover": true,
+  "PoolId": 2,
+  "ServerUrl": "https://pipelinesghubeus25.actions.githubusercontent.com/LAv7CD0wbB3MAliRNhX30fuiT6ozcjZq5SValu5oFUJI2g3WmQ/",
+  "WorkFolder": "/home/runner/work",
+  "MonitorSocketAddress": "127.0.0.1:49100"
+}
+[2025-02-27 14:36:51Z INFO MessageListener] Loading Credentials
+[2025-02-27 14:36:51Z INFO ConfigurationStore] HasCredentials()
+[2025-02-27 14:36:51Z INFO ConfigurationStore] stored True
+[2025-02-27 14:36:51Z INFO CredentialManager] GetCredentialProvider
+[2025-02-27 14:36:51Z INFO CredentialManager] Creating type OAuthAccessToken
+[2025-02-27 14:36:51Z INFO CredentialManager] Creating credential type: OAuthAccessToken
+[2025-02-27 14:36:51Z INFO OAuthAccessTokenCredential] GetVssCredentials
+[2025-02-27 14:36:51Z INFO OAuthAccessTokenCredential] token retrieved: 1683 chars
+[2025-02-27 14:36:51Z INFO OAuthAccessTokenCredential] cred created
+[2025-02-27 14:36:51Z INFO MessageListener] Attempt to create session.
+[2025-02-27 14:36:51Z INFO MessageListener] Connecting to the Runner Server...
+[2025-02-27 14:36:51Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 14:36:51Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-02-27 14:36:51Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 14:36:51Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 14:36:51Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-02-27 14:36:51Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 14:36:51Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 14:36:51Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-02-27 14:36:51Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 14:36:53Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 14:36:54Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 14:36:54Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 14:36:54Z INFO MessageListener] VssConnection created
+[2025-02-27 14:36:54Z INFO Terminal] WRITE LINE: 
+[2025-02-27 14:36:54Z INFO Terminal] WRITE LINE: 
+[2025-02-27 14:36:54Z ERR  GitHubActionsService] POST request to https://pipelinesghubeus25.actions.githubusercontent.com/LAv7CD0wbB3MAliRNhX30fuiT6ozcjZq5SValu5oFUJI2g3WmQ/_apis/distributedtask/pools/2/sessions failed. HTTP Status: Forbidden
+[2025-02-27 14:36:54Z INFO MessageListener] Runner OAuth token has been revoked. Session creation failed.
+[2025-02-27 14:36:54Z INFO Runner] Runner OAuth token has been revoked. Shutting down.
+[2025-02-27 14:36:54Z INFO Listener] Runner execution has finished with return code 0

@@ -14,3 +14,17 @@
 /root/runner-2.322.0/bin/Runner.Sdk.deps.json
 /root/runner-2.322.0/bin/Runner.Sdk.dll
 /root/runner-2.322.0/bin/Runner.Sdk.pdb
+/root/runner/bin/Runner.Sdk.deps.json
+/root/runner/bin/Runner.Sdk.dll
+/root/runner/bin/Runner.Sdk.pdb
+/root/runner/src/Runner.Sdk/obj/Release/net8.0/Runner.Sdk.csproj.AssemblyReference.cache
+/root/runner/src/Runner.Sdk/obj/Release/net8.0/Runner.Sdk.GeneratedMSBuildEditorConfig.editorconfig
+/root/runner/src/Runner.Sdk/obj/Release/net8.0/Runner.Sdk.AssemblyInfoInputs.cache
+/root/runner/src/Runner.Sdk/obj/Release/net8.0/Runner.Sdk.AssemblyInfo.cs
+/root/runner/src/Runner.Sdk/obj/Release/net8.0/Runner.Sdk.csproj.CoreCompileInputs.cache
+/root/runner/src/Runner.Sdk/obj/Release/net8.0/Runner.Sdk.sourcelink.json
+/root/runner/src/Runner.Sdk/obj/Release/net8.0/Runner.Sdk.csproj.Up2Date
+/root/runner/src/Runner.Sdk/obj/Release/net8.0/Runner.Sdk.dll
+/root/runner/src/Runner.Sdk/obj/Release/net8.0/refint/Runner.Sdk.dll
+/root/runner/src/Runner.Sdk/obj/Release/net8.0/Runner.Sdk.pdb
+/root/runner/src/Runner.Sdk/obj/Release/net8.0/ref/Runner.Sdk.dll

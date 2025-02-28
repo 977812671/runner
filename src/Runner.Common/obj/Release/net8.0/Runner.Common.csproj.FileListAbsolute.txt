@@ -14,3 +14,17 @@
 /root/runner-2.322.0/bin/Runner.Common.deps.json
 /root/runner-2.322.0/bin/Runner.Common.dll
 /root/runner-2.322.0/bin/Runner.Common.pdb
+/root/runner/bin/Runner.Common.deps.json
+/root/runner/bin/Runner.Common.dll
+/root/runner/bin/Runner.Common.pdb
+/root/runner/src/Runner.Common/obj/Release/net8.0/Runner.Common.csproj.AssemblyReference.cache
+/root/runner/src/Runner.Common/obj/Release/net8.0/Runner.Common.GeneratedMSBuildEditorConfig.editorconfig
+/root/runner/src/Runner.Common/obj/Release/net8.0/Runner.Common.AssemblyInfoInputs.cache
+/root/runner/src/Runner.Common/obj/Release/net8.0/Runner.Common.AssemblyInfo.cs
+/root/runner/src/Runner.Common/obj/Release/net8.0/Runner.Common.csproj.CoreCompileInputs.cache
+/root/runner/src/Runner.Common/obj/Release/net8.0/Runner.Common.sourcelink.json
+/root/runner/src/Runner.Common/obj/Release/net8.0/Runner.C.A34139FD.Up2Date
+/root/runner/src/Runner.Common/obj/Release/net8.0/Runner.Common.dll
+/root/runner/src/Runner.Common/obj/Release/net8.0/refint/Runner.Common.dll
+/root/runner/src/Runner.Common/obj/Release/net8.0/Runner.Common.pdb
+/root/runner/src/Runner.Common/obj/Release/net8.0/ref/Runner.Common.dll

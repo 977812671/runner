@@ -1,0 +1,167 @@
+[2025-02-27 14:20:46Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-02-27 14:20:46Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:20:46Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:20:46Z INFO HostContext] Well known config file 'Credentials': '/root/runner/.credentials'
+[2025-02-27 14:20:46Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:20:46Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:20:46Z INFO HostContext] Well known config file 'Runner': '/root/runner/.runner'
+[2025-02-27 14:20:46Z INFO Listener] Runner is built for Linux (X64) - gancc.
+[2025-02-27 14:20:46Z INFO Listener] RuntimeInformation: Ubuntu 22.04.1 LTS.
+[2025-02-27 14:20:46Z INFO Listener] Version: 2.322.0
+[2025-02-27 14:20:46Z INFO Listener] Commit: N/A
+[2025-02-27 14:20:46Z INFO Listener] Culture: en-US
+[2025-02-27 14:20:46Z INFO Listener] UI Culture: en-US
+[2025-02-27 14:20:46Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:20:46Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:20:46Z INFO Listener] Validating directory permissions for: '/root/runner'
+[2025-02-27 14:20:46Z INFO CommandLineParser] Parse
+[2025-02-27 14:20:46Z INFO CommandLineParser] Parsing 1 args
+[2025-02-27 14:20:46Z INFO CommandLineParser] parsing argument
+[2025-02-27 14:20:46Z INFO CommandLineParser] HasArgs: False
+[2025-02-27 14:20:46Z INFO CommandLineParser] Adding Command: run
+[2025-02-27 14:20:46Z INFO Listener] Arguments parsed
+[2025-02-27 14:20:47Z INFO Runner] ExecuteCommand
+[2025-02-27 14:20:47Z INFO ConfigurationStore] currentAssemblyLocation: /root/runner/bin/Runner.Listener.dll
+[2025-02-27 14:20:47Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:20:47Z INFO ConfigurationStore] binPath: /root/runner/bin
+[2025-02-27 14:20:47Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:20:47Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:20:47Z INFO ConfigurationStore] RootFolder: /root/runner
+[2025-02-27 14:20:47Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:20:47Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:20:47Z INFO HostContext] Well known config file 'Runner': '/root/runner/.runner'
+[2025-02-27 14:20:47Z INFO ConfigurationStore] ConfigFilePath: /root/runner/.runner
+[2025-02-27 14:20:47Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:20:47Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:20:47Z INFO HostContext] Well known config file 'Credentials': '/root/runner/.credentials'
+[2025-02-27 14:20:47Z INFO ConfigurationStore] CredFilePath: /root/runner/.credentials
+[2025-02-27 14:20:47Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:20:47Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:20:47Z INFO HostContext] Well known config file 'MigratedCredentials': '/root/runner/.credentials_migrated'
+[2025-02-27 14:20:47Z INFO ConfigurationStore] MigratedCredFilePath: /root/runner/.credentials_migrated
+[2025-02-27 14:20:47Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-27 14:20:47Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-27 14:20:47Z INFO HostContext] Well known config file 'Service': '/root/runner/.service'
+[2025-02-27 14:20:47Z INFO ConfigurationStore] ServiceConfigFilePath: /root/runner/.service
+[2025-02-27 14:20:47Z INFO CommandSettings] Flag 'help': 'False'
+[2025-02-27 14:20:47Z INFO CommandSettings] Flag 'version': 'False'
+[2025-02-27 14:20:47Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-02-27 14:20:47Z INFO CommandSettings] Flag 'check': 'False'
+[2025-02-27 14:20:47Z INFO CommandSettings] Command 'configure': 'False'
+[2025-02-27 14:20:47Z INFO CommandSettings] Command 'remove': 'False'
+[2025-02-27 14:20:47Z INFO CommandSettings] Command 'warmup': 'False'
+[2025-02-27 14:20:47Z INFO ConfigurationManager] LoadSettings
+[2025-02-27 14:20:47Z INFO ConfigurationStore] IsConfigured()
+[2025-02-27 14:20:47Z INFO ConfigurationStore] IsConfigured: True
+[2025-02-27 14:20:47Z INFO ConfigurationManager] Is configured: True
+[2025-02-27 14:20:47Z INFO ConfigurationStore] Read setting file: 297 chars
+[2025-02-27 14:20:47Z INFO ConfigurationManager] Settings Loaded
+[2025-02-27 14:20:47Z INFO ConfigurationStore] IsServiceConfigured()
+[2025-02-27 14:20:47Z INFO ConfigurationStore] IsServiceConfigured: False
+[2025-02-27 14:20:47Z INFO CommandSettings] Command 'run': 'True'
+[2025-02-27 14:20:47Z INFO ConfigurationStore] IsConfigured()
+[2025-02-27 14:20:47Z INFO ConfigurationStore] IsConfigured: True
+[2025-02-27 14:20:47Z INFO ConfigurationManager] Is configured: True
+[2025-02-27 14:20:47Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2025-02-27 14:20:47Z INFO Runner] Set runner startup type - Manual
+[2025-02-27 14:20:47Z INFO CommandSettings] Flag 'once': 'False'
+[2025-02-27 14:20:47Z INFO CommandSettings] Flag 'once': 'False'
+[2025-02-27 14:20:47Z INFO Runner] RunAsync
+[2025-02-27 14:20:47Z INFO ConfigurationManager] LoadSettings
+[2025-02-27 14:20:47Z INFO ConfigurationStore] IsConfigured()
+[2025-02-27 14:20:47Z INFO ConfigurationStore] IsConfigured: True
+[2025-02-27 14:20:47Z INFO ConfigurationManager] Is configured: True
+[2025-02-27 14:20:47Z INFO ConfigurationManager] Settings Loaded
+[2025-02-27 14:20:47Z INFO MessageListener] {
+  "AgentId": 21,
+  "AgentName": "racknerd-fd2fee",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus10.actions.githubusercontent.com/89L97vZbSU59OmQVA7BZqe1iOQIVMt5xxsoxJCR3Sx1p80wk85/",
+  "GitHubUrl": "https://github.com/977812670/test",
+  "WorkFolder": "_work"
+}
+[2025-02-27 14:20:47Z INFO MessageListener] Loading Credentials
+[2025-02-27 14:20:47Z INFO ConfigurationStore] HasCredentials()
+[2025-02-27 14:20:47Z INFO ConfigurationStore] stored True
+[2025-02-27 14:20:47Z INFO CredentialManager] GetCredentialProvider
+[2025-02-27 14:20:47Z INFO CredentialManager] Creating type OAuthAccessToken
+[2025-02-27 14:20:47Z INFO CredentialManager] Creating credential type: OAuthAccessToken
+[2025-02-27 14:20:47Z INFO OAuthAccessTokenCredential] GetVssCredentials
+[2025-02-27 14:20:47Z INFO OAuthAccessTokenCredential] token retrieved: 1683 chars
+[2025-02-27 14:20:47Z INFO OAuthAccessTokenCredential] cred created
+[2025-02-27 14:20:47Z INFO MessageListener] Attempt to create session.
+[2025-02-27 14:20:47Z INFO MessageListener] Connecting to the Runner Server...
+[2025-02-27 14:20:47Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 14:20:47Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-02-27 14:20:47Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 14:20:47Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 14:20:47Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-02-27 14:20:47Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 14:20:47Z INFO RunnerServer] EstablishVssConnection
+[2025-02-27 14:20:47Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-02-27 14:20:47Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-27 14:20:49Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 14:20:49Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 14:20:49Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-27 14:20:49Z INFO MessageListener] VssConnection created
+[2025-02-27 14:20:49Z INFO Terminal] WRITE LINE: 
+[2025-02-27 14:20:49Z INFO Terminal] WRITE LINE: 
+[2025-02-27 14:20:49Z WARN GitHubActionsService] Authentication failed with status code 401.
+Date: Thu, 27 Feb 2025 14:20:49 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: d7f6bc27-501e-470f-aee2-f00520aa6906
+ActivityId: 89309c5c-fd14-4d89-b95d-b7b97f962ba5
+X-TFS-Session: e9c5e523-ee63-4b01-82b9-91327dfa621a
+X-VSS-E2EID: 166d5542-f706-4a92-85f5-49a346d6f313
+X-VSS-SenderDeploymentId: 7101e053-bd8e-689b-be8c-ce908c7f0053
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-VSS-UserData: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa:System:PublicAccess;aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa
+
+[2025-02-27 14:20:49Z WARN GitHubActionsService] Authentication failed with status code 401.
+Date: Thu, 27 Feb 2025 14:20:49 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: d7f6bc27-501e-470f-aee2-f00520aa6906
+ActivityId: 89309c40-fd14-4d89-b95d-b7b97f962ba5
+X-TFS-Session: e9c5e523-ee63-4b01-82b9-91327dfa621a
+X-VSS-E2EID: 166d5542-f706-4a92-85f5-49a346d6f313
+X-VSS-SenderDeploymentId: 7101e053-bd8e-689b-be8c-ce908c7f0053
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-VSS-UserData: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa:System:PublicAccess;aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa
+
+[2025-02-27 14:20:49Z WARN GitHubActionsService] Authentication failed with status code 401.
+Date: Thu, 27 Feb 2025 14:20:49 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: d7f6bc27-501e-470f-aee2-f00520aa6906
+ActivityId: 89309c70-fd14-4d89-b95d-b7b97f962ba5
+X-TFS-Session: e9c5e523-ee63-4b01-82b9-91327dfa621a
+X-VSS-E2EID: 166d5542-f706-4a92-85f5-49a346d6f313
+X-VSS-SenderDeploymentId: 7101e053-bd8e-689b-be8c-ce908c7f0053
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-VSS-UserData: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa:System:PublicAccess;aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa
+
+[2025-02-27 14:20:49Z ERR  GitHubActionsService] POST request to https://pipelinesghubeus10.actions.githubusercontent.com/89L97vZbSU59OmQVA7BZqe1iOQIVMt5xxsoxJCR3Sx1p80wk85/_apis/distributedtask/pools/1/sessions is not authorized. Details: The user 'System:PublicAccess;aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa' is not authorized to access this resource.
+[2025-02-27 14:20:49Z ERR  MessageListener] Catch exception during create session.
+[2025-02-27 14:20:49Z ERR  MessageListener] GitHub.Services.Common.VssUnauthorizedException: The user 'System:PublicAccess;aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa' is not authorized to access this resource.
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/Common/Common/VssHttpMessageHandler.cs:line 347
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/Common/Common/VssHttpRetryMessageHandler.cs:line 102
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 854
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 750
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken) in /root/runner-2.322.0/src/Sdk/WebApi/WebApi/VssHttpClientBase.cs:line 410
+   at GitHub.Runner.Listener.MessageListener.CreateSessionAsync(CancellationToken token) in /root/runner-2.322.0/src/Runner.Listener/MessageListener.cs:line 112
+[2025-02-27 14:20:49Z INFO MessageListener] Non-retriable exception: The user 'System:PublicAccess;aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa' is not authorized to access this resource.
+[2025-02-27 14:20:49Z ERR  Terminal] WRITE ERROR: Failed to create session. The user 'System:PublicAccess;aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa' is not authorized to access this resource.
+[2025-02-27 14:20:49Z INFO Listener] Runner execution has finished with return code 1

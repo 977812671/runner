@@ -21144,14 +21144,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/root/runner-2.322.0/src/Sdk/Sdk.csproj",
+      "projectUniqueName": "/root/runner/src/Sdk/Sdk.csproj",
       "projectName": "Sdk",
-      "projectPath": "/root/runner-2.322.0/src/Sdk/Sdk.csproj",
+      "projectPath": "/root/runner/src/Sdk/Sdk.csproj",
       "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/root/runner-2.322.0/src/Sdk/obj/",
+      "outputPath": "/root/runner/src/Sdk/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/root/runner-2.322.0/src/NuGet.Config",
+        "/root/runner/src/NuGet.Config",
         "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [

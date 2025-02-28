@@ -13,3 +13,16 @@
 /root/runner-2.322.0/bin/Sdk.deps.json
 /root/runner-2.322.0/bin/Sdk.dll
 /root/runner-2.322.0/bin/Sdk.pdb
+/root/runner/bin/Sdk.deps.json
+/root/runner/bin/Sdk.dll
+/root/runner/bin/Sdk.pdb
+/root/runner/src/Sdk/obj/Release/net8.0/Sdk.csproj.AssemblyReference.cache
+/root/runner/src/Sdk/obj/Release/net8.0/Sdk.GeneratedMSBuildEditorConfig.editorconfig
+/root/runner/src/Sdk/obj/Release/net8.0/Sdk.AssemblyInfoInputs.cache
+/root/runner/src/Sdk/obj/Release/net8.0/Sdk.AssemblyInfo.cs
+/root/runner/src/Sdk/obj/Release/net8.0/Sdk.csproj.CoreCompileInputs.cache
+/root/runner/src/Sdk/obj/Release/net8.0/Sdk.sourcelink.json
+/root/runner/src/Sdk/obj/Release/net8.0/Sdk.dll
+/root/runner/src/Sdk/obj/Release/net8.0/refint/Sdk.dll
+/root/runner/src/Sdk/obj/Release/net8.0/Sdk.pdb
+/root/runner/src/Sdk/obj/Release/net8.0/ref/Sdk.dll

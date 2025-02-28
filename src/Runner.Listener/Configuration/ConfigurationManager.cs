@@ -25,6 +25,7 @@ namespace GitHub.Runner.Listener.Configuration
         Task UnconfigureAsync(CommandSettings command);
         void DeleteLocalRunnerConfig();
         RunnerSettings LoadSettings();
+   
     }
 
     public sealed class ConfigurationManager : RunnerService, IConfigurationManager
@@ -33,6 +34,7 @@ namespace GitHub.Runner.Listener.Configuration
         private IRunnerServer _runnerServer;
         private IRunnerDotcomServer _dotcomServer;
         private ITerminal _term;
+        private IRSAKeyManager _keyManager; // 字段定义在类中
 
         public override void Initialize(IHostContext hostContext)
         {
@@ -43,6 +45,8 @@ namespace GitHub.Runner.Listener.Configuration
             _store = hostContext.GetService<IConfigurationStore>();
             Trace.Verbose("store created");
             _term = hostContext.GetService<ITerminal>();
+          _keyManager = HostContext.GetService<IRSAKeyManager>(); // 初始化字段
+   
         }
 
         public bool IsConfigured()
@@ -128,6 +132,15 @@ namespace GitHub.Runner.Listener.Configuration
                     // Get the credentials
                     credProvider = GetCredentialProvider(command, runnerSettings.ServerUrl);
                     creds = credProvider.GetVssCredentials(HostContext);
+                    Console.WriteLine("VssCredentials Details1:");
+            Console.WriteLine("RunnerSettings Details:");
+foreach (var property in creds.GetType().GetProperties())
+{
+    var value = property.GetValue(creds);
+    Console.WriteLine($"{property.Name}: {value}");
+}
+
+
                     Trace.Info("legacy vss cred retrieved");
                 }
                 else
@@ -139,6 +152,24 @@ namespace GitHub.Runner.Listener.Configuration
                     runnerSettings.UseV2Flow = authResult.UseV2Flow;
                     Trace.Info($"Using V2 flow: {runnerSettings.UseV2Flow}");
                     creds = authResult.ToVssCredentials();
+Console.WriteLine("VssCredentials Details123456:");
+foreach (var property in creds.GetType().GetProperties())
+{
+    var value = property.GetValue(creds);
+    if (property.Name == "Federated" && value != null)
+    {
+        Console.WriteLine($"{property.Name}:");
+        foreach (var subProperty in value.GetType().GetProperties())
+        {
+            Console.WriteLine($"    {subProperty.Name}: {subProperty.GetValue(value)}");
+        }
+    }
+    else
+    {
+        Console.WriteLine($"{property.Name}: {value}");
+    }
+}
+
                     Trace.Info("cred retrieved via GitHub auth");
                 }
 
@@ -180,6 +211,15 @@ namespace GitHub.Runner.Listener.Configuration
 
             // We want to use the native CSP of the platform for storage, so we use the RSACSP directly
             RSAParameters publicKey;
+using (var rsa = _keyManager.CreateKey())  // 使用成员变量
+{
+    publicKey = rsa.ExportParameters(false); // 导出公钥参数
+    Console.WriteLine("RSA Public Key Details:");
+    Console.WriteLine($"Exponent: {BitConverter.ToString(publicKey.Exponent)}");
+    Console.WriteLine($"Modulus: {BitConverter.ToString(publicKey.Modulus)}");
+}
+
+
             var keyManager = HostContext.GetService<IRSAKeyManager>();
             string publicKeyXML;
             using (var rsa = keyManager.CreateKey())
@@ -413,6 +453,14 @@ namespace GitHub.Runner.Listener.Configuration
 
             _store.SaveSettings(runnerSettings);
 
+            Console.WriteLine("RunnerSettings Details:");
+foreach (var property in runnerSettings.GetType().GetProperties())
+{
+    var value = property.GetValue(runnerSettings);
+    Console.WriteLine($"{property.Name}: {value}");
+}
+
+
             _term.WriteLine();
             _term.WriteSuccessMessage("Settings Saved.");
             _term.WriteLine();
@@ -506,6 +554,8 @@ namespace GitHub.Runner.Listener.Configuration
                     {
                         var credProvider = GetCredentialProvider(command, settings.ServerUrl);
                         creds = credProvider.GetVssCredentials(HostContext);
+                        Console.WriteLine(creds );
+
                         Trace.Info("legacy vss cred retrieved");
                     }
                     else
@@ -516,7 +566,8 @@ namespace GitHub.Runner.Listener.Configuration
                         Trace.Info("cred retrieved via GitHub auth");
                     }
 
-                    // Determine the service deployment type based on connection data. (Hosted/OnPremises)
+                    // Determine the service deployment type based on connection data. (Hosted/OnPremises)     
+                    Console.WriteLine(creds);
                     await _runnerServer.ConnectAsync(new Uri(settings.ServerUrl), creds);
 
                     var agents = await _runnerServer.GetAgentsAsync(settings.AgentName);
@@ -559,6 +610,7 @@ namespace GitHub.Runner.Listener.Configuration
 
             // Create the credential.
             Trace.Info("Creating credential for auth: {0}", authType);
+            Console.WriteLine("Creating credential for auth: {0}", authType);
             var provider = credentialManager.GetCredentialProvider(authType);
             if (provider.RequireInteractive && command.Unattended)
             {
@@ -608,6 +660,16 @@ namespace GitHub.Runner.Listener.Configuration
 
         private TaskAgent CreateNewAgent(string agentName, RSAParameters publicKey, ISet<string> userLabels, bool ephemeral, bool disableUpdate, bool noDefaultLabels)
         {
+        
+           // 使用成员变量 _keyManager
+    using (var rsa = _keyManager.CreateKey())  // 修改为使用成员变量
+    {
+        publicKey = rsa.ExportParameters(false); // 导出公钥参数
+        Console.WriteLine("RSA Public Key Details:");
+        Console.WriteLine($"Exponent: {BitConverter.ToString(publicKey.Exponent)}");
+        Console.WriteLine($"Modulus: {BitConverter.ToString(publicKey.Modulus)}");
+    }
+        
             TaskAgent agent = new(agentName)
             {
                 Authorization = new TaskAgentAuthorization
@@ -651,6 +713,23 @@ namespace GitHub.Runner.Listener.Configuration
                 Trace.Info($"Retrived runner {tokenType} token is good to {jitToken.ExpiresAt}.");
                 HostContext.SecretMasker.AddValue(jitToken.Token);
                 runnerToken = jitToken.Token;
+                Console.WriteLine("VssCredentials Details:");
+foreach (var property in runnerToken.GetType().GetProperties())
+{
+    try
+{
+    // 尝试获取属性值
+    var value = property.GetValue(runnerToken, null);
+    Console.WriteLine($"{property.Name}: {value}");
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"{property.Name}: Error accessing property value - {ex.Message}");
+}
+
+}
+
+
             }
 
             if (string.IsNullOrEmpty(runnerToken))
@@ -715,6 +794,7 @@ namespace GitHub.Runner.Listener.Configuration
                 using (var httpClient = new HttpClient(httpClientHandler))
                 {
                     var base64EncodingToken = Convert.ToBase64String(Encoding.UTF8.GetBytes($"github:{githubToken}"));
+                    Console.WriteLine(base64EncodingToken);
                     HostContext.SecretMasker.AddValue(base64EncodingToken);
                     httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("basic", base64EncodingToken);
                     httpClient.DefaultRequestHeaders.UserAgent.AddRange(HostContext.UserAgents);

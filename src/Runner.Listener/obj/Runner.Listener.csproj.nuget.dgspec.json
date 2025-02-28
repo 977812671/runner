@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/root/runner-2.322.0/src/Runner.Listener/Runner.Listener.csproj": {}
+    "/root/runner/src/Runner.Listener/Runner.Listener.csproj": {}
   },
   "projects": {
-    "/root/runner-2.322.0/src/Runner.Common/Runner.Common.csproj": {
+    "/root/runner/src/Runner.Common/Runner.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/root/runner-2.322.0/src/Runner.Common/Runner.Common.csproj",
+        "projectUniqueName": "/root/runner/src/Runner.Common/Runner.Common.csproj",
         "projectName": "Runner.Common",
-        "projectPath": "/root/runner-2.322.0/src/Runner.Common/Runner.Common.csproj",
+        "projectPath": "/root/runner/src/Runner.Common/Runner.Common.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/root/runner-2.322.0/src/Runner.Common/obj/",
+        "outputPath": "/root/runner/src/Runner.Common/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/runner-2.322.0/src/NuGet.Config",
+          "/root/runner/src/NuGet.Config",
           "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -27,11 +27,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/root/runner-2.322.0/src/Runner.Sdk/Runner.Sdk.csproj": {
-                "projectPath": "/root/runner-2.322.0/src/Runner.Sdk/Runner.Sdk.csproj"
+              "/root/runner/src/Runner.Sdk/Runner.Sdk.csproj": {
+                "projectPath": "/root/runner/src/Runner.Sdk/Runner.Sdk.csproj"
               },
-              "/root/runner-2.322.0/src/Sdk/Sdk.csproj": {
-                "projectPath": "/root/runner-2.322.0/src/Sdk/Sdk.csproj"
+              "/root/runner/src/Sdk/Sdk.csproj": {
+                "projectPath": "/root/runner/src/Sdk/Sdk.csproj"
               }
             }
           }
@@ -217,17 +217,17 @@
         }
       }
     },
-    "/root/runner-2.322.0/src/Runner.Listener/Runner.Listener.csproj": {
+    "/root/runner/src/Runner.Listener/Runner.Listener.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/root/runner-2.322.0/src/Runner.Listener/Runner.Listener.csproj",
+        "projectUniqueName": "/root/runner/src/Runner.Listener/Runner.Listener.csproj",
         "projectName": "Runner.Listener",
-        "projectPath": "/root/runner-2.322.0/src/Runner.Listener/Runner.Listener.csproj",
+        "projectPath": "/root/runner/src/Runner.Listener/Runner.Listener.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/root/runner-2.322.0/src/Runner.Listener/obj/",
+        "outputPath": "/root/runner/src/Runner.Listener/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/runner-2.322.0/src/NuGet.Config",
+          "/root/runner/src/NuGet.Config",
           "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -240,14 +240,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/root/runner-2.322.0/src/Runner.Common/Runner.Common.csproj": {
-                "projectPath": "/root/runner-2.322.0/src/Runner.Common/Runner.Common.csproj"
+              "/root/runner/src/Runner.Common/Runner.Common.csproj": {
+                "projectPath": "/root/runner/src/Runner.Common/Runner.Common.csproj"
               },
-              "/root/runner-2.322.0/src/Runner.Sdk/Runner.Sdk.csproj": {
-                "projectPath": "/root/runner-2.322.0/src/Runner.Sdk/Runner.Sdk.csproj"
+              "/root/runner/src/Runner.Sdk/Runner.Sdk.csproj": {
+                "projectPath": "/root/runner/src/Runner.Sdk/Runner.Sdk.csproj"
               },
-              "/root/runner-2.322.0/src/Sdk/Sdk.csproj": {
-                "projectPath": "/root/runner-2.322.0/src/Sdk/Sdk.csproj"
+              "/root/runner/src/Sdk/Sdk.csproj": {
+                "projectPath": "/root/runner/src/Sdk/Sdk.csproj"
               }
             }
           }
@@ -433,17 +433,17 @@
         }
       }
     },
-    "/root/runner-2.322.0/src/Runner.Sdk/Runner.Sdk.csproj": {
+    "/root/runner/src/Runner.Sdk/Runner.Sdk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/root/runner-2.322.0/src/Runner.Sdk/Runner.Sdk.csproj",
+        "projectUniqueName": "/root/runner/src/Runner.Sdk/Runner.Sdk.csproj",
         "projectName": "Runner.Sdk",
-        "projectPath": "/root/runner-2.322.0/src/Runner.Sdk/Runner.Sdk.csproj",
+        "projectPath": "/root/runner/src/Runner.Sdk/Runner.Sdk.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/root/runner-2.322.0/src/Runner.Sdk/obj/",
+        "outputPath": "/root/runner/src/Runner.Sdk/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/runner-2.322.0/src/NuGet.Config",
+          "/root/runner/src/NuGet.Config",
           "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -456,8 +456,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/root/runner-2.322.0/src/Sdk/Sdk.csproj": {
-                "projectPath": "/root/runner-2.322.0/src/Sdk/Sdk.csproj"
+              "/root/runner/src/Sdk/Sdk.csproj": {
+                "projectPath": "/root/runner/src/Sdk/Sdk.csproj"
               }
             }
           }
@@ -635,17 +635,17 @@
         }
       }
     },
-    "/root/runner-2.322.0/src/Sdk/Sdk.csproj": {
+    "/root/runner/src/Sdk/Sdk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/root/runner-2.322.0/src/Sdk/Sdk.csproj",
+        "projectUniqueName": "/root/runner/src/Sdk/Sdk.csproj",
         "projectName": "Sdk",
-        "projectPath": "/root/runner-2.322.0/src/Sdk/Sdk.csproj",
+        "projectPath": "/root/runner/src/Sdk/Sdk.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/root/runner-2.322.0/src/Sdk/obj/",
+        "outputPath": "/root/runner/src/Sdk/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/runner-2.322.0/src/NuGet.Config",
+          "/root/runner/src/NuGet.Config",
           "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [

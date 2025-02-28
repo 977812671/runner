@@ -1,0 +1,90 @@
+[2025-02-28 06:33:03Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-02-28 06:33:03Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-28 06:33:03Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-28 06:33:03Z INFO HostContext] Well known config file 'Credentials': '/root/runner/.credentials'
+[2025-02-28 06:33:03Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-28 06:33:03Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-28 06:33:03Z INFO HostContext] Well known config file 'Runner': '/root/runner/.runner'
+[2025-02-28 06:33:03Z INFO Listener] Runner is built for Linux (X64) - gancc.
+[2025-02-28 06:33:03Z INFO Listener] RuntimeInformation: Ubuntu 22.04.1 LTS.
+[2025-02-28 06:33:03Z INFO Listener] Version: 2.322.0
+[2025-02-28 06:33:03Z INFO Listener] Commit: N/A
+[2025-02-28 06:33:03Z INFO Listener] Culture: en-US
+[2025-02-28 06:33:03Z INFO Listener] UI Culture: en-US
+[2025-02-28 06:33:03Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-28 06:33:03Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-28 06:33:03Z INFO Listener] Validating directory permissions for: '/root/runner'
+[2025-02-28 06:33:03Z INFO CommandLineParser] Parse
+[2025-02-28 06:33:03Z INFO CommandLineParser] Parsing 1 args
+[2025-02-28 06:33:03Z INFO CommandLineParser] parsing argument
+[2025-02-28 06:33:03Z INFO CommandLineParser] HasArgs: False
+[2025-02-28 06:33:03Z INFO CommandLineParser] Adding Command: remove
+[2025-02-28 06:33:03Z INFO Listener] Arguments parsed
+[2025-02-28 06:33:03Z INFO Runner] ExecuteCommand
+[2025-02-28 06:33:03Z INFO ConfigurationStore] currentAssemblyLocation: /root/runner/bin/Runner.Listener.dll
+[2025-02-28 06:33:03Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-28 06:33:03Z INFO ConfigurationStore] binPath: /root/runner/bin
+[2025-02-28 06:33:03Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-28 06:33:03Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-28 06:33:03Z INFO ConfigurationStore] RootFolder: /root/runner
+[2025-02-28 06:33:03Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-28 06:33:03Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-28 06:33:03Z INFO HostContext] Well known config file 'Runner': '/root/runner/.runner'
+[2025-02-28 06:33:03Z INFO ConfigurationStore] ConfigFilePath: /root/runner/.runner
+[2025-02-28 06:33:03Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-28 06:33:03Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-28 06:33:03Z INFO HostContext] Well known config file 'Credentials': '/root/runner/.credentials'
+[2025-02-28 06:33:03Z INFO ConfigurationStore] CredFilePath: /root/runner/.credentials
+[2025-02-28 06:33:03Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-28 06:33:03Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-28 06:33:03Z INFO HostContext] Well known config file 'MigratedCredentials': '/root/runner/.credentials_migrated'
+[2025-02-28 06:33:03Z INFO ConfigurationStore] MigratedCredFilePath: /root/runner/.credentials_migrated
+[2025-02-28 06:33:03Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-28 06:33:03Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-28 06:33:03Z INFO HostContext] Well known config file 'Service': '/root/runner/.service'
+[2025-02-28 06:33:03Z INFO ConfigurationStore] ServiceConfigFilePath: /root/runner/.service
+[2025-02-28 06:33:03Z INFO CommandSettings] Flag 'help': 'False'
+[2025-02-28 06:33:03Z INFO CommandSettings] Flag 'version': 'False'
+[2025-02-28 06:33:03Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-02-28 06:33:03Z INFO CommandSettings] Flag 'check': 'False'
+[2025-02-28 06:33:03Z INFO CommandSettings] Command 'configure': 'False'
+[2025-02-28 06:33:03Z INFO CommandSettings] Command 'remove': 'True'
+[2025-02-28 06:33:03Z INFO CommandSettings] Flag 'local': 'False'
+[2025-02-28 06:33:03Z INFO ConfigurationStore] IsServiceConfigured()
+[2025-02-28 06:33:03Z INFO ConfigurationStore] IsServiceConfigured: False
+[2025-02-28 06:33:03Z INFO ConfigurationStore] IsConfigured()
+[2025-02-28 06:33:03Z INFO ConfigurationStore] IsConfigured: True
+[2025-02-28 06:33:03Z INFO ConfigurationStore] HasCredentials()
+[2025-02-28 06:33:03Z INFO ConfigurationStore] stored True
+[2025-02-28 06:33:03Z INFO ConfigurationStore] Read setting file: 296 chars
+[2025-02-28 06:33:03Z INFO CommandSettings] Arg 'token': ''
+[2025-02-28 06:33:03Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-02-28 06:33:03Z INFO PromptManager] ReadValue
+[2025-02-28 06:33:03Z INFO Terminal] WRITE: Enter runner remove token: 
+[2025-02-28 06:33:03Z INFO Terminal] READ SECRET
+[2025-02-28 06:33:06Z INFO Terminal] Read value: '***'
+[2025-02-28 06:33:07Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration' (89CE:F7755:336C94D:674AB83:67C158A3)
+[2025-02-28 06:33:07Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2025-02-28 06:33:07Z INFO RunnerServer] EstablishVssConnection
+[2025-02-28 06:33:08Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-02-28 06:33:08Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-28 06:33:08Z INFO RunnerServer] EstablishVssConnection
+[2025-02-28 06:33:08Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-02-28 06:33:08Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-28 06:33:08Z INFO RunnerServer] EstablishVssConnection
+[2025-02-28 06:33:08Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-02-28 06:33:08Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-02-28 06:33:08Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-28 06:33:08Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-28 06:33:08Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-02-28 06:33:09Z INFO Terminal] WRITE LINE: 
+[2025-02-28 06:33:09Z INFO ConfigurationStore] IsConfigured()
+[2025-02-28 06:33:09Z INFO ConfigurationStore] IsConfigured: True
+[2025-02-28 06:33:09Z INFO ConfigurationStore] HasCredentials()
+[2025-02-28 06:33:09Z INFO ConfigurationStore] stored True
+[2025-02-28 06:33:09Z INFO HostContext] Well known directory 'Bin': '/root/runner/bin'
+[2025-02-28 06:33:09Z INFO HostContext] Well known directory 'Root': '/root/runner'
+[2025-02-28 06:33:09Z INFO HostContext] Well known config file 'RSACredentials': '/root/runner/.credentials_rsaparams'
+[2025-02-28 06:33:09Z INFO RSAFileKeyManager] Deleting RSA key parameters file /root/runner/.credentials_rsaparams
+[2025-02-28 06:33:09Z INFO Terminal] WRITE LINE: 
+[2025-02-28 06:33:09Z INFO Listener] Runner execution has finished with return code 0
